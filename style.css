@@ -3,32 +3,38 @@
                      
 /*etiquetas generales (compartidas) */
 
-*{margin: 0;
-    padding: 0; 
+*{
+      margin: 0;
+      padding: 0; 
 }
   
-body{font-family: 'Poppins', sans-serif;
+body{
+      font-family: 'Poppins', sans-serif;
       
       
 }
-header{background-color:rgb(83, 221, 136);
+header{
+      background-color:rgb(83, 221, 136);
       text-align: center;
       
 }
     
-.imagenlogo{width:100%;
-      height:100%;
+.imagenlogo{
+      width:60%;
+      height:60%;
       padding-top: 5px;
       padding-bottom: 0px;
       
 }
 
-nav{  color:rgb(252, 252, 252);
+nav{  
+      color:rgb(252, 252, 252);
       text-align: center;
       width:100%;   
 }
 
-.navegador{display:block;
+.navegador{
+      display:block;
       font-weight: bold;
       font-style: normal;
       padding-top: 5px;
@@ -37,7 +43,8 @@ nav{  color:rgb(252, 252, 252);
       
 }
 
-#h1movimientoreciclar{color:rgb(255, 255, 255);
+#h1movimientoreciclar{
+      color:rgb(255, 255, 255);
       background-color: rgb(0, 0, 0);
       background-size: cover;
       border-bottom:solid 7px mediumseagreen;
@@ -51,12 +58,14 @@ nav{  color:rgb(252, 252, 252);
       margin: 0px;
 }
 
-main{background-color:rgb(255, 255, 255);
+main{
+      background-color:rgb(255, 255, 255);
       text-align: center;
       padding-bottom: 20px;
 }
 
-h2{color: rgb(51, 119, 62);
+h2{
+      color: rgb(51, 119, 62);
       padding-top: 5px;
       padding-bottom: 5px;
       padding-right: 10px;
@@ -64,7 +73,8 @@ h2{color: rgb(51, 119, 62);
       font-size: 13px;
 }
    
-h3{color: darkolivegreen;
+h3{
+      color: darkolivegreen;
       font-weight: bold;
       padding-top: 10px;
       padding-right: 10px;
@@ -73,7 +83,8 @@ h3{color: darkolivegreen;
       font-size: 13px;  
 }
 
-h4{color: rgb(0, 0, 0);
+h4{
+      color: rgb(0, 0, 0);
       font-weight: bold;
       font-size: 13px;
       line-height: 1.5;
@@ -81,7 +92,8 @@ h4{color: rgb(0, 0, 0);
 }
 
 
-p{font-family: Georgia, 'Times New Roman', Times, serif;
+p{
+      font-family: Georgia, 'Times New Roman', Times, serif;
       font-size: 11px ;
       font-style: normal;
       line-height: 1;
@@ -90,7 +102,8 @@ p{font-family: Georgia, 'Times New Roman', Times, serif;
       padding-left: 10px;
 }
   
-iframe{display: inline-block;
+iframe{
+      display: inline-block;
       text-align: center;
       padding-top: 12px;
       padding-bottom: 12px;
@@ -99,14 +112,16 @@ iframe{display: inline-block;
 }
   
 
-img{padding-top: 10px;
+img{
+      padding-top: 10px;
       padding-bottom: 10px;
       width:100%;
       height:100%;     
 }
 
 
-a{text-decoration:none;
+a{
+      text-decoration:none;
       font-size: 12px;
       background-color:rgb(83, 221, 136);
       color:rgb(252, 252, 252); 
@@ -117,18 +132,21 @@ a{text-decoration:none;
       line-height: 1px;  
 }
 
-a:hover{ font-weight:bold; 
+a:hover{ 
+      font-weight:bold; 
       color:rgb(0, 0, 0); 
       text-decoration:none; 
 }
  
 
-ul{list-style-type: none; 
+ul{
+      list-style-type: none; 
       padding-right: 10px;
       padding-left: 10px;  
 }
 
-li{font-weight: bold;
+li{
+      font-weight: bold;
       line-height: 1;
       font-size: 14px;
       padding-bottom: 5px;
@@ -136,14 +154,17 @@ li{font-weight: bold;
       padding-left: 10px;
 }
 
-footer{background-color:rgb(83, 221, 136);
+footer{
+      background-color:rgb(83, 221, 136);
       background-size: cover;
       text-align: center; 
       align-items: center;
-      height: 80px;
+      height: 60px;
+      padding-top: 5px;
 }
 
-.imgfooter{width: 20px;
+.imgfooter{
+      width: 20px;
       height:20px;
       padding: 1px;
     
@@ -351,7 +372,7 @@ footer{background-color:rgb(83, 221, 136);
 /*personalizados pag contacto*/
 
 .fondocontacto {
-      background-image: url(https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_1280.jpg);
+      background-image: url(imagen/imgcontacto/fondocontacto.jpg);
       background-size:cover;
       margin: 0;      
 }
@@ -465,7 +486,7 @@ input {
             line-height: 1.5;
       }
       footer{
-            height: 90px;
+            height: 70px;
       }
 
 /* personlizadas index p tablet*/
@@ -809,10 +830,11 @@ input {
             text-align: center;
             margin-left: 80px;
             margin-right: 80px;
+            margin-bottom: 3px;
             font-size: 20px;
       }
       footer{
-            height: 100px;
+            height: 80px;
       }
 
       }
