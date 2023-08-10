@@ -1,0 +1,823 @@
+
+
+                     
+/*etiquetas generales (compartidas) */
+
+*{margin: 0;
+    padding: 0; 
+}
+  
+body{font-family: 'Poppins', sans-serif;
+      
+      
+}
+header{background-color:rgb(83, 221, 136);
+      text-align: center;
+      
+}
+    
+.imagenlogo{width:100%;
+      height:100%;
+      padding-top: 5px;
+      padding-bottom: 0px;
+      
+}
+
+nav{  color:rgb(252, 252, 252);
+      text-align: center;
+      width:100%;   
+}
+
+.navegador{display:block;
+      font-weight: bold;
+      font-style: normal;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      line-height: 1.5;
+      
+}
+
+#h1movimientoreciclar{color:rgb(255, 255, 255);
+      background-color: rgb(0, 0, 0);
+      background-size: cover;
+      border-bottom:solid 7px mediumseagreen;
+      text-align: left;
+      padding-top: 12px;
+      padding-right: 25px;
+      padding-bottom: 12px;
+      padding-left: 25px;
+      font-size: 14px;
+      line-height: 1;
+      margin: 0px;
+}
+
+main{background-color:rgb(255, 255, 255);
+      text-align: center;
+      padding-bottom: 20px;
+}
+
+h2{color: rgb(51, 119, 62);
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-right: 10px;
+      padding-left: 10px;
+      font-size: 13px;
+}
+   
+h3{color: darkolivegreen;
+      font-weight: bold;
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-bottom: 5px; 
+      padding-left: 10px;
+      font-size: 13px;  
+}
+
+h4{color: rgb(0, 0, 0);
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 1.5;
+
+}
+
+
+p{font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 11px ;
+      font-style: normal;
+      line-height: 1;
+      padding-bottom: 5px;
+      padding-right: 10px;
+      padding-left: 10px;
+}
+  
+iframe{display: inline-block;
+      text-align: center;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      width: 90%;
+      height: 90%;
+}
+  
+
+img{padding-top: 10px;
+      padding-bottom: 10px;
+      width:100%;
+      height:100%;     
+}
+
+
+a{text-decoration:none;
+      font-size: 12px;
+      background-color:rgb(83, 221, 136);
+      color:rgb(252, 252, 252); 
+      padding-top: 5px;
+      padding-right: 5px;
+      padding-bottom: 4px;
+      padding-left: 5px;
+      line-height: 1px;  
+}
+
+a:hover{ font-weight:bold; 
+      color:rgb(0, 0, 0); 
+      text-decoration:none; 
+}
+ 
+
+ul{list-style-type: none; 
+      padding-right: 10px;
+      padding-left: 10px;  
+}
+
+li{font-weight: bold;
+      line-height: 1;
+      font-size: 14px;
+      padding-bottom: 5px;
+      padding-right: 10px;
+      padding-left: 10px;
+}
+
+footer{background-color:rgb(83, 221, 136);
+      background-size: cover;
+      text-align: center; 
+      align-items: center;
+      height: 80px;
+}
+
+.imgfooter{width: 20px;
+      height:20px;
+      padding: 1px;
+    
+}
+
+.piedepagina{
+      display:block;
+      color:rgb(252, 252, 252);
+      font-weight: bold;
+      text-align: center;     
+      padding-right: 10px;
+      padding-left: 10px;
+      line-height: 1;
+}
+  
+.contactoyredes{ 
+      display: inline;
+      color:rgb(252, 252, 252);
+      font-weight: bold;
+      text-align: center;          
+}
+
+
+/*etiquetas personalisadas */
+
+
+/*etiquetas personalisadas pagina index / home */
+
+.div1index:hover { 
+      color: darkolivegreen; 
+      text-decoration:none;
+   
+}
+.div1index{
+      background-color: rgb(255, 255, 255); 
+      color: rgb(2, 2, 2);  
+      margin-top: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+    
+}
+.h2home {
+      color: rgb(7, 44, 10);
+}
+.imagenpasosaseguir{
+      width: 50%;
+}
+.div2index {
+      background-color:rgb(63, 173, 105) ; 
+      color: aliceblue; 
+      margin-top: 5px;
+      margin-right: 10px;
+      margin-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+   
+}
+
+ /*personalisados pag instutucional*/
+
+
+.quienessomos {
+      border-color: rgb(132, 214, 132);
+      border-style:dotted;
+      margin-top: 5px;
+      padding: 10px;
+      background-size: cover;
+      margin-left: 10px;
+      margin-right: 10px;
+}
+.imginstitucional {
+      width: 100%;
+      size: cover;
+      padding-top: 0;
+}
+.img2institucional {
+      width: 50%;
+      height: 50%;
+}
+
+/*personalizados pag campanas*/
+ 
+.h2campanas{ 
+      background-color: rgb(220, 255, 47);
+      margin-top: 10px;
+}
+.h3promover {
+      margin:10px;
+      line-height: 1;      
+}
+
+.parrafoh3campanas{
+      font-size: 10px;
+      margin: 10px;
+      padding: 5px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      
+}
+  
+.parrafocampanas{
+      font-size: 10px;
+      margin: 10px;
+      padding-bottom: 5px;
+      padding-right: 20px;
+      padding-left: 20px;
+
+}
+  
+.campanaslineasdeintervencion{ 
+      font-size: 5px;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color:  rgb(5, 123, 5) ;
+}
+  
+.campanasparticipa{ border-style: inset; 
+      background-color: rgb(252, 252, 252);
+      border-color:rgb(220, 255, 47) ;
+      font-size: 10px;
+      padding-top: 5px;
+      padding-bottom: 40px;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin: 5px;
+      
+}
+  
+.framecampanas{
+      display: block;
+      margin-top: 10px;
+      padding-top: 5px;
+      padding-bottom: 40px;
+}
+
+/* personlizadas  pag pdereciclaje */
+
+.parrafopuntoreciclado{
+      color: black;
+      font-weight: lighter;
+      font-size: 12 px;
+      padding-bottom: 10 px;
+      margin-left: 10px;
+      margin-right: 10px;
+}
+
+.parrafo2puntoreciclado{
+      color: black;
+      font-weight: lighter;
+      font-size: 12 px;
+      padding-bottom: 10 px;
+      padding-left: 10px;
+      padding-right: 10px; 
+}
+.puntosreciclaje{
+      border-style: solid;
+      border-color: rgb(7, 44, 10);
+      background-color: #C3EDC0;
+      align-items: center;
+      height: 40vh;
+      width: 50vh;
+      text-align: center;
+      margin-top: 5px;
+      margin-left: 20px;
+      margin-right: 20px;
+        
+  }
+  
+  #imgpreciclaje{
+      width: 70%;
+      height: 80%;
+      display: inline-block;
+      padding: 5px;
+      
+  }
+  .atextopdereciclaje {
+      font-size: 12px;
+
+  }
+
+.letrapuntoreciclado{
+      font-size: 16px;
+      font-weight: bold;
+      color: #525551;
+      border-top: solid 5px rgb(7, 44, 10);   
+      border-bottom:solid 5px  rgb(7, 44, 10);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-top: 2%;
+}
+.puntosdereciclados{
+      display: flex;
+      flex-direction: column;
+     
+
+}
+
+/*personalizados pag contacto*/
+
+.fondocontacto {
+      background-image: url(https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_1280.jpg);
+      background-size:cover;
+      margin: 0;      
+}
+   
+.divconsultas {
+      background-color: rgba(127, 255, 212, 0.315);
+      color: aliceblue;
+      text-align: center;
+      padding-top: 5px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+}
+
+.h2contacto {
+      color: rgb(4, 141, 100);
+      text-align: center;
+      padding-top: 5px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px
+}
+
+form { 
+      background-color:aliceblue;
+      text-align: center;
+      border: 3px solid #78a583;
+      padding: 20px;
+      border-radius: 10px;
+      align-items: center;
+      margin-right: 30px;
+      margin-left: 30px;      
+}
+
+label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: 12px;
+}
+
+input { 
+      width: 75%;
+
+}
+  
+.textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;     
+}
+ 
+.inputcontactoenviar {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+}
+
+
+ /* aca empiezan los responsive */
+
+
+ @media (min-width:768px) {
+      .imagenlogo {
+            width: 25%;
+            height: 25%;
+      }
+      .menu{
+            display: flex;
+            justify-content: space-evenly;
+      }
+      .navegador { 
+            font-size: 15px;      
+            padding-bottom: 2px;}
+      
+      #h1movimientoreciclar { 
+            height: 80px;
+            padding-top: 30px;
+            font-size: 25px;
+      }
+
+      main {
+            padding-bottom: 20px;
+      }
+
+      li{
+            font-size: 18px;
+      }
+
+      p{
+            font-size: 16px;
+      }
+
+
+      h2{
+            font-size: 20px;
+      }
+
+      h3{
+            font-size: 16px; 
+      }
+
+      h4{
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 1.5;
+      }
+      footer{
+            height: 90px;
+      }
+
+/* personlizadas index p tablet*/
+      #carouselExampleIndicators {
+            margin-left: 50px;
+            margin-right: 50px;
+      }
+      .pasosaseguir{
+            display: flex;
+            justify-content: space;
+            padding: 10px;
+      }
+      .pasosaseguir div{
+            background-color:rgb(63, 173, 105) ; 
+            color: aliceblue; 
+            margin-top: 5px;
+            margin-right: 10px;
+            margin-left: 10px;
+            padding: 10px;
+            width: 60%;
+      }
+
+      .div2index {
+            margin-left: 40px;
+            margin-right: 40px;}
+
+      .quienessomos{
+            margin-left: 40px;
+            margin-right: 40px;
+      }
+      
+      img {
+            width: 75%;
+            height: 75%;
+            text-align: center;
+      }
+/* personlizadas institucional p tablet*/     
+
+      .gridinstitucional {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-template-rows: repeat(4, 1fr);
+            grid-column-gap: 5px;
+            grid-row-gap: 10px;
+            margin-left: 50px;
+            margin-right: 50px;
+
+      }
+      .img2institucional {
+            width: 85%;
+            height: 85%;
+      }
+      .quienessomos {
+            margin-top: 5px;
+            padding-top: 45px;
+            background-size: cover;
+            margin: 0;       
+      }
+
+
+/* personlizadas campanas p tablet*/
+
+      .campanas.html {
+            width: 50%;
+            height: 50%;
+      }
+            
+      .h1campanas { 
+            display: inline;
+            font-size: 40px;
+      }
+        
+      .h2campanas { 
+            font-size: 25px
+      }
+      .h3promover {
+            margin-left: 50px;
+            margin-right: 50px;
+                  
+      }     
+      .parrafoh3campanas { 
+            font-size: 14px;
+            padding: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+      }
+            
+      .parrafocampanas {
+            font-size: 14px;
+            padding: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+      }
+            
+      .campanaslineasdeintervencion {
+            font-size: 10px;
+            margin: 50px;
+           
+      }
+      .campanasparticipa {
+            padding: 20px;
+            margin:50px
+      }
+/* personlizadas pdereciclaje p tablet*/  
+
+      .parrafopuntoreciclado{
+            font-size: 14px;
+            padding-bottom: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+      }
+      .parrafo2puntoreciclado{
+            font-size: 14px;
+            padding-bottom: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+      }
+      .flexboxpdereciclaje{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 50px; 
+            
+            
+      }
+
+      .puntosreciclaje{
+            margin-top: 10px;
+             
+        }
+
+      .atextopdereciclaje {
+            font-size: 14px;
+      
+        }  
+    
+
+ /* personlizadas contacto p tablet*/
+
+      form{
+            margin-right: 200px;
+            margin-left: 200px;
+      }
+ 
+      iframe{
+           height: 500px;
+            width:75%;
+      }
+      
+      .piedepagina {
+            display:block;
+            text-align: center;
+            padding-left: 50px;
+            padding-right: 50px;
+            font-size: 14px;
+      }
+      
+      .imgfooter{
+            width: 30px;
+            height:30px;
+            padding: 1px;
+           
+          
+      }
+
+      
+}
+      
+      
+      
+/*de aqui para abajo coloquen sus codigos personalizados que quien cambiar* dentro de esta llave para tamaño min 768px*/
+  
+
+@media (min-width:1024px) {
+      .imagenlogo {
+            width:20%;
+            height:20%;
+      }
+      
+      .navegador {
+            font-size:20px;
+            padding-bottom: 1px;
+      }
+      
+      #h1movimientoreciclar { 
+            height: 80px;
+            padding-top: 20px;
+            font-size: 30px;
+      }
+      
+      main {
+            padding-bottom: 20px;
+      }
+      li{
+            font-size: 20px;
+      }
+
+      p{
+            font-size: 18px;
+      }
+
+      h2{
+            font-size: 25px;
+      }
+
+      h3{
+            font-size: 18px;
+      }
+
+      h4{
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 1.5;
+      }
+      
+      img { 
+            width:80%;
+            height: 80%;
+            display:inline;
+            text-align: center;
+      }
+      iframe{
+            display: inline;
+            width:60%;     
+      } 
+
+/* personlizadas index p laptop*/
+      #carouselExampleIndicators {
+            margin-left: 100px;
+            margin-right: 100px;
+}
+      .div1index {
+            margin-left: 100px;
+            margin-right: 100px;
+      }
+
+      .div2index {
+            margin-left: 100px;
+            margin-right: 100px;
+      }
+
+/* personlizadas institucional p laptop*/
+      .gridinstitucional {
+           grid-column-gap: 5px;
+           grid-row-gap: 10px;
+           margin-left: 100px;
+           margin-right: 100px;
+      }
+      
+      .img2institucional {
+           width: 90%;
+           height: 90%;
+      }
+
+      .quienessomos {
+            margin-top: 5px;
+            padding-top: 65px;
+      }
+
+
+
+/* personlizadas campanas p laptop*/
+
+      .h1campanas{
+            font: size 10px;
+            text-align:justify;
+      }
+      .h2campanas {
+            height: 30px;
+            padding-top: 30px;
+            font-size: 30px;
+            text-align: center;
+            line-height: 1px;
+            margin-top: 10px;
+      }
+
+      .h3promover {
+            font-size: 200px;
+            line-height: 25px;
+            margin-left: 100px;
+            margin-right: 100px;
+      }
+
+      .parrafoh3campanas { 
+            font-size: 18px;
+            margin-left: 100px;
+            margin-right: 100px;
+            padding: 30px;
+      }
+      .parrafocampanas {
+            font-size: 16px;
+            padding: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+            line-height:1.5 px;
+      }
+  
+      .campanaslineasdeintervencion {
+            font-size: 16px;
+            padding-bottom: 100px;
+      }
+/* personlizadas pdereciclaje p laptop*/
+
+      .parrafopuntoreciclado{
+            font-size: 16px;
+            padding-bottom: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+      }
+      .parrafo2puntoreciclado{
+            font-size: 16px;
+            padding-bottom: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+      }
+      .flexboxpdereciclaje{
+            margin: 100px;    
+      }
+
+      .puntosreciclaje{
+            margin-top: 20px;
+             
+        }
+
+      .atextopdereciclaje {
+            font-size: 18px;
+      
+        }  
+
+     
+/* personlizadas contacto p laptop*/
+
+      form{
+            margin-right: 300px;
+            margin-left: 300px;
+      }
+      
+      .piedepagina {
+            display:block;
+            text-align: center;
+            margin-left: 80px;
+            margin-right: 80px;
+            font-size: 20px;
+      }
+      footer{
+            height: 100px;
+      }
+
+      }
+      
+
+
+
+
