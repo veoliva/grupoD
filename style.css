@@ -308,17 +308,27 @@ footer{
 }
 
 /* personlizadas  pag pdereciclaje */
-
-.parrafopuntoreciclado{
-      color: black;
-      font-weight: lighter;
-      font-size: 12 px;
-      padding-bottom: 10 px;
-      margin-left: 10px;
-      margin-right: 10px;
+main{background-color: #E9FFC2;
+      padding-bottom: 20px;
+      text-align: center;       
 }
 
-.parrafo2puntoreciclado{
+h2{color: rgb(51, 119, 62);
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: 14px;
+      font-weight: bold;
+}
+
+h3{color: rgb(51, 119, 62);
+      font-size: 14px;
+      font-weight: bold;
+      padding-top: 10px;
+      padding-bottom: 5px; 
+      font-size: 13px;  
+}
+
+.parrafopuntoreciclado{
       color: black;
       font-weight: lighter;
       font-size: 12 px;
@@ -326,47 +336,68 @@ footer{
       padding-left: 10px;
       padding-right: 10px; 
 }
-.puntosreciclaje{
-      border-style: solid;
-      border-color: rgb(7, 44, 10);
-      background-color: #C3EDC0;
-      align-items: center;
-      height: 40vh;
-      width: 50vh;
-      text-align: center;
-      margin-top: 5px;
-      margin-left: 20px;
-      margin-right: 20px;
-        
-  }
-  
-  #imgpreciclaje{
-      width: 70%;
-      height: 80%;
-      display: inline-block;
-      padding: 5px;
-      
-  }
-  .atextopdereciclaje {
-      font-size: 12px;
 
-  }
+.parrafo2puntoreciclado{
+      color: black;
+      font-weight: lighter;
+      font-size: 12 px;
+      padding-bottom: 1 px;
+      padding-left: 10px;
+      padding-right: 10px; 
+}
+ .puntosdereciclados{
+      display: flex;     
+      flex-direction: column;
+
+} 
+
+.artptoreci{
+      border-style: solid;
+      border-color: rgb(83, 221, 136);
+      background-color: #C3EDC0;
+      align-self: center;
+     /* padding: 1% 5% 1% 5%; */
+      width: 40%;
+      height: 40%;
+      /*margin: 2% 30% 2% 30%;*/
+}
+
+.imgpuntoreciclado{
+      width: 80%;
+      height: 40%; 
+}
+
+.linkpuntoreciclado{
+      font-size: 12px;
+      background-color:#E9FFC2 ;
+      color: #AAC8A7; 
+      font-weight: bold;
+      padding-top: 0%;
+      padding-right: 5px;
+      padding-bottom: 0%;
+      padding-left: 5px;
+      line-height: 1px;
+}
+
+.pbasura{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 9px ;
+      font-style: normal;
+      line-height: 1;
+      padding: 5% 5% 5% 5%;
+}
 
 .letrapuntoreciclado{
       font-size: 16px;
       font-weight: bold;
       color: #525551;
-      border-top: solid 5px rgb(7, 44, 10);   
-      border-bottom:solid 5px  rgb(7, 44, 10);
+      border-top: solid 5px rgb(83, 221, 136);
+      /*border-right:solid 10px rgb(83, 221, 136);*/
+      border-bottom:solid 5px rgb(83, 221, 136);
+      /*border-left:solid 10px rgb(83, 221, 136);*/
       padding-top: 10px;
       padding-bottom: 10px;
       margin-top: 2%;
-}
-.puntosdereciclados{
-      display: flex;
-      flex-direction: column;
-     
-
 }
 
 /*personalizados pag contacto*/
@@ -592,37 +623,46 @@ input {
       }
 /* personlizadas pdereciclaje p tablet*/  
 
-      .parrafopuntoreciclado{
-            font-size: 14px;
-            padding-bottom: 20px;
-            margin-left: 50px;
-            margin-right: 50px;
+      .artptoreci{
+            border-style: solid;
+            border-color: rgb(83, 221, 136);
+            background-color: #C3EDC0;
+            padding: 1% 5% 1% 5%;
+            width: 30%;
+            height: 30%;
       }
-      .parrafo2puntoreciclado{
-            font-size: 14px;
-            padding-bottom: 20px;
-            margin-left: 50px;
-            margin-right: 50px;
-      }
-      .flexboxpdereciclaje{
+
+      .imgpuntoreciclado{
+            width: 50%;
+            height: 50%; 
+      }    
+
+      .puntosdereciclados{
             display: flex;
+            flex-direction: row;
             flex-wrap: wrap;
-            justify-content: space-around;
-            margin: 50px; 
-            
-            
+            justify-content: center;
       }
 
-      .puntosreciclaje{
-            margin-top: 10px;
-             
-        }
+      .pbasura{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 11px ;
+            font-style: normal;
+            line-height: 1;
+            padding: 5% 5% 5% 5%;
 
-      .atextopdereciclaje {
-            font-size: 14px;
-      
-        }  
-    
+      }
+
+      .letrapuntoreciclado{
+            font-size: 20px;
+            font-weight: bold;
+            color: #525551;
+            border-top: solid 5px rgb(83, 221, 136);
+            border-bottom:solid 5px rgb(83, 221, 136);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top: 2%;
+      }
 
  /* personlizadas contacto p tablet*/
 
@@ -647,16 +687,10 @@ input {
       .imgfooter{
             width: 30px;
             height:30px;
-            padding: 1px;
-           
-          
+            padding: 1px;   
       }
-
-      
 }
-      
-      
-      
+       
 /*de aqui para abajo coloquen sus codigos personalizados que quien cambiar* dentro de esta llave para tamaño min 768px*/
   
 
@@ -791,31 +825,57 @@ input {
       }
 /* personlizadas pdereciclaje p laptop*/
 
-      .parrafopuntoreciclado{
-            font-size: 16px;
-            padding-bottom: 20px;
-            margin-left: 100px;
-            margin-right: 100px;
+      .artptoreci{
+            border-style: solid;
+            border-color: #rgb(83, 221, 136);
+            background-color: #C3EDC0;
+            padding: 1% 5% 1% 5%;
+            width: 30%;
+            height: 30%;
       }
-      .parrafo2puntoreciclado{
-            font-size: 16px;
-            padding-bottom: 20px;
-            margin-left: 100px;
-            margin-right: 100px;
-      }
-      .flexboxpdereciclaje{
-            margin: 100px;    
-      }
-
-      .puntosreciclaje{
-            margin-top: 20px;
-             
-        }
-
-      .atextopdereciclaje {
-            font-size: 18px;
       
-        }  
+      .imgpuntoreciclado{
+            width: 60%;
+            height: 60%; 
+      }    
+
+      .puntosdereciclados{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+      }
+
+      .linkpuntoreciclado{
+            font-size: 16px;
+            background-color:#E9FFC2 ;
+            color: #AAC8A7; 
+            font-weight: bold;
+            padding-top: 0%;
+            padding-right: 5px;
+            padding-bottom: 0%;
+            padding-left: 5px;
+            line-height: 1px;
+      }
+      
+      .pbasura{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 16px ;
+            font-style: normal;
+            line-height: 1;
+            padding: 5% 5% 5% 5%;
+
+      }
+
+      .letrapuntoreciclado{
+            font-size: 20px;
+            font-weight: bold;
+            color: #525551;
+            border-top: solid 5px rgb(83, 221, 136);
+            border-bottom:solid 5px rgb(83, 221, 136);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top: 2%;
+      }
 
      
 /* personlizadas contacto p laptop*/
