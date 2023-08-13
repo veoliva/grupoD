@@ -308,7 +308,7 @@ footer{
 }
 
 /* personlizadas  pag pdereciclaje */
-main{background-color: #E9FFC2;
+main{background-color: #ffffff;
       padding-bottom: 20px;
       text-align: center;       
 }
@@ -359,6 +359,7 @@ h3{color: rgb(51, 119, 62);
      /* padding: 1% 5% 1% 5%; */
       width: 40%;
       height: 40%;
+      margin-bottom: 2px;
       /*margin: 2% 30% 2% 30%;*/
 }
 
@@ -630,6 +631,7 @@ input {
             padding: 1% 5% 1% 5%;
             width: 30%;
             height: 30%;
+            margin: 2px;
       }
 
       .imgpuntoreciclado{
@@ -827,11 +829,12 @@ input {
 
       .artptoreci{
             border-style: solid;
-            border-color: #rgb(83, 221, 136);
+            border-color: rgb(83, 221, 136);
             background-color: #C3EDC0;
             padding: 1% 5% 1% 5%;
             width: 30%;
             height: 30%;
+            margin: 3px;
       }
       
       .imgpuntoreciclado{
