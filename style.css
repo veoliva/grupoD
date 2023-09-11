@@ -603,7 +603,7 @@ input {
       .h1campanasdereciclaje { 
             height: 80px;
             padding-top: 30px;
-            font-size: 20px;
+            font-size: 25px;
             color:rgb(255, 255, 255);
             background-color: rgb(0, 0, 0);
             background-size: cover;
@@ -812,9 +812,10 @@ input {
 
 /* personlizadas campanas p laptop*/
 
-      .h1campanas{
-            font: size 10px;
-            text-align:justify;
+      .h1campanasdereciclaje{
+            height: 80px;
+            padding-top: 20px;
+            font-size: 30px;
       }
       
       .h3promover {
