@@ -9,6 +9,7 @@ alert ("hola" + " " + nombre + " " + apellido + " " + "bienvenido/a a la página
 
 //  funcion donacion  ( en pagina index) (para ver el siguiente ejercicio comente el anterior /*)
 
+/*
 function donar() {
    
     let opcion = prompt("¿Desea donar? (1) Sí (2) No");
@@ -21,4 +22,4 @@ function donar() {
   }
    
   donar(); 
-
+*/
