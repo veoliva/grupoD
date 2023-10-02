@@ -1,4 +1,6 @@
-//1. Crear los objetos en JavaScript con sus arrays. Estos tienen propiedades nombre, imagen y enlace
+//pagina de prueba (no es parte de la 4ta preentrega)
+
+/*//1. Crear los objetos en JavaScript con sus arrays. Estos tienen propiedades nombre, imagen y enlace
 
 let puntosReciclaje = document.querySelectorAll(".puntosdereciclados article");
 
@@ -35,10 +37,10 @@ function agregarElemento(nombre, imagen, enlace) {
 
   estructuraJSON.puntosReciclaje.push(nuevoPuntoReciclaje);
 
-/*Ejemplo de uso:
+//Ejemplo de uso:
 
 JavaScript
-// Agregar un nuevo punto de reciclaje*/
+// Agregar un nuevo punto de reciclaje
 
 agregarElemento("Aluminio", "alumino.png", "https://maps.app.goo.gl/d26JuyzbP6RSyxvV9");
 
@@ -57,5 +59,4 @@ localStorage.setItem("linkpuntoreciclado", href);
  //Guardar la estructura actualizada en el storage
   localStorage.setItem("estructuraJSON", JSON.stringify(estructuraJSON));
 }
-
-let parrafoId = document.getElementById "3p"
+  */
