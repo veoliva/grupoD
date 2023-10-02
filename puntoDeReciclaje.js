@@ -18,14 +18,16 @@ let estructuraJSON = JSON.stringify({
     puntosReciclaje: objetosPuntosReciclaje
   });
 
+  console.log(estructuraJSON);
+
+
 //3. Leerla desde un archivo JS y crear una función que nos deje agregar un nuevo elemento al storage, siguiendo la estructura de los elementos anteriores.
 
-// Leer la estructura de datos desde un archivo JS
-const estructuraJSON = require("./estructura.json");
 
+// Leer la estructura de datos desde un archivo JS
 // Función para agregar un nuevo elemento al storage
 function agregarElemento(nombre, imagen, enlace) {
-  const nuevoPuntoReciclaje = {
+  let nuevoPuntoReciclaje = {
     nombre,
     imagen,
     enlace
@@ -33,19 +35,27 @@ function agregarElemento(nombre, imagen, enlace) {
 
   estructuraJSON.puntosReciclaje.push(nuevoPuntoReciclaje);
 
-  // Guardar la estructura actualizada en el storage
+/*Ejemplo de uso:
+
+JavaScript
+// Agregar un nuevo punto de reciclaje*/
+
+agregarElemento("Aluminio", "alumino.png", "https://maps.app.goo.gl/d26JuyzbP6RSyxvV9");
+
+// Obtener la estructura actualizada
+let estructuraActualizada = JSON.parse(localStorage.getItem("estructuraJSON"));
+
+// Hacer algo con la estructura actualizada*
+
+  // Almacenamos la información en Storage
+localStorage.setItem("linkpuntoreciclado", textContent);
+localStorage.setItem("imgpuntoreciclado", src);
+localStorage.setItem("linkpuntoreciclado", href);
+
+
+
+ //Guardar la estructura actualizada en el storage
   localStorage.setItem("estructuraJSON", JSON.stringify(estructuraJSON));
 }
 
-/*Esta función recibe tres parámetros: nombre, imagen y enlace. La función crea un nuevo objeto con las propiedades especificadas y lo agrega al array puntosReciclaje. Finalmente, guarda la estructura actualizada en el storage local.
-
-Ejemplo de uso:
-
-JavaScript
-// Agregar un nuevo punto de reciclaje
-agregarElemento("Nuevo punto de reciclaje", "imagen.jpg", "enlace.com");
-
-// Obtener la estructura actualizada
-const estructuraActualizada = JSON.parse(localStorage.getItem("estructuraJSON"));
-
-// Hacer algo con la estructura actualizada*/
+let parrafoId = document.getElementById "3p"
