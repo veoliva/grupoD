@@ -300,6 +300,7 @@ footer{
       padding-left: 10px;
       padding-right: 10px;
       color:  rgb(5, 123, 5) ;
+      list-style: none;
 }
   
 .campanasparticipa{ border-style: inset; 
