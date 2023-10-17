@@ -15,7 +15,11 @@ estructura de los elementos anteriores.*/
 
 
 
-// Definimos un arreglo de objetos JSON llamado jsonItemCampana
+//sugerencia: (En el archivo "campanas.js", en la línea 59, ¿por qué usan li? Son para listas. Si es para un título un h2, h3.)
+//Explicacion: originalmente en el html el contenido que estamos agregando correspone a una lista, 
+//la cual tiene un class asignado que le aporta diseño. si la reemplazamos por un h2 u h3 perdemos esas caracteristicas.
+
+//correccion segun devolucion 4ta preentrega
 let jsonItemCampana = [
   {
     "titulo": "Recicladores de Base",
@@ -41,14 +45,10 @@ let jsonItemCampana = [
 
 console.log(jsonItemCampana);
 
-// Función que se ejecuta cuando la ventana se ha cargado completamente
 window.onload = () => {
-  // Verificamos si los datos ya existen en localStorage
-  if (!localStorage.getItem("titulo") && !localStorage.getItem("descripcion")) {
-      // Guardamos el primer elemento del arreglo en localStorage solo si no existen en localStorage
-      localStorage.setItem("titulo", jsonItemCampana[0].titulo);
-      localStorage.setItem("descripcion", jsonItemCampana[0].descripcion);
-  }
+  // Guardamos el primer elemento del arreglo en localStorage
+  localStorage.setItem("titulo", jsonItemCampana[0].titulo);
+  localStorage.setItem("descripcion", jsonItemCampana[0].descripcion);
 
   // Recuperamos los datos de localStorage y mostramos
   let storedTitulo = localStorage.getItem("titulo");
@@ -69,9 +69,9 @@ window.onload = () => {
 
   // Recorremos el arreglo jsonItemCampana y agregamos elementos a la lista
   for (let i = 1; i < jsonItemCampana.length; i++) {
-      // Creamos un article
-      let article = document.createElement("article");
-
+    
+      let lista = document.getElementById ("itemCampana")
+      
       // Creamos un li
       let li = document.createElement("li");
       li.innerText = jsonItemCampana[i].titulo;
@@ -81,11 +81,9 @@ window.onload = () => {
       p.innerText = jsonItemCampana[i].descripcion;
 
       // Agregamos li y p al article
-      article.appendChild(li);
-      article.appendChild(p);
+      lista.appendChild(li);
+      lista.appendChild(p);
 
-      // Agregamos el article al html
-      document.getElementById("itemCampana").appendChild(article);
+    
   }
 }
-  
