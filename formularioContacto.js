@@ -1,5 +1,4 @@
 //.js del formulario
-//Sugerencias
 
 ////correccion segun devolucion 4ta preentrega (agregamos validaciones y un popup que nos indica que el formulario ha sido entregado correctamente. )
 

@@ -1,23 +1,4 @@
-/*Para la cuarta pre-entrega deberán incluir en su proyecto los
-siguientes puntos:
-(en pagina campanas)
--Almacenar en Storage la información ingresada por el usuario
-en la entrega anterior. Puede ser un texto, números, o
-combinación.
--Mostrar al usuario dicha información (ya guardada en nuestra
-base de datos).
--Crear estructura de datos en formato JSON, puede ser de
-productos, servicios o usuarios.
--Leerla desde un archivo JS y 
-crear una función que nos deje
-agregar un nuevo elemento a la base de datos, siguiendo la
-estructura de los elementos anteriores.*/
-
-
-
-//sugerencia: (En el archivo "campanas.js", en la línea 59, ¿por qué usan li? Son para listas. Si es para un título un h2, h3.)
-//Explicacion: originalmente en el html el contenido que estamos agregando correspone a una lista, 
-//la cual tiene un class asignado que le aporta diseño. si la reemplazamos por un h2 u h3 perdemos esas caracteristicas.
+//js. de campanas
 
 //correccion segun devolucion 4ta preentrega
 let jsonItemCampana = [
